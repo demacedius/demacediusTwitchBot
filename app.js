@@ -35,9 +35,9 @@ client.on("chat",(channel, user, message, self)=> {
     if ((message === "!Moteur") || (message === "!moteur")){
         client.say(channel, "Le moteur que j'utilise c'est Godot. Vous pouvez le télécharger ici https://godotengine.org/");
     }
-    if (message === "!clear"){
-        client.on("clearchat", channel);
-    }
+   if ((message === "!twitter")){
+       client.say(channel,"mon twitter est https://twitter.com/Onehourgamestud");
+   }
 });
 
 
